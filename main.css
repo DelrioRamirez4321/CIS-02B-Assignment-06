@@ -24,7 +24,7 @@ a:focus, a:hover {
 }
 
 body {
-
+	font-size: 20px;
 }
 
 code {
@@ -60,9 +60,13 @@ p {
 }
 
 #intro {
+	line-height: 135%;
+	width:35em;
 
 }
 
 #how-does-it-work, #influence, #joke {
+	line-height: 135%;
+	width: 35em;
 
 }
