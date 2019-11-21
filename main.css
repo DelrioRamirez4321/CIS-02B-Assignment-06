@@ -10,6 +10,7 @@
 /* 
 	You can modify everything after this point.
 */
+
 @import url('https://fonts.googleapis.com/css?family=Alatsi|Solway&display=swap');
 
 a:link, a:visited {
@@ -38,18 +39,24 @@ h1, h2, h3 {
 }
 
 h1 {
+	margin-bottom: 1em;
 
 }
 
 h2 {
+	margin-bottom: 1em;
 
 }
 
 h3 {
+	margin-top:1em;
+	margin-bottom: 1em;
 	
 }
 
 header {
+	margin: 1em auto 1em auto;
+	width:300px;
 	
 }
 
@@ -58,19 +65,20 @@ main {
 }
 
 p {
+	line-height: 135%;
+	font-family: 'Solway', serif;
+	text-indent: 1em;
 
 }
 
 #intro {
-	line-height: 135%;
 	width:35em;
-	font-family: 'Solway', serif;
+	margin: 1em auto 1em auto;
 
 }
 
 #how-does-it-work, #influence, #joke {
-	line-height: 135%;
 	width: 35em;
-	font-family: 'Solway', serif;
+	margin: 1em auto 1em auto;
 
 }
