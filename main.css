@@ -12,9 +12,11 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Alatsi|Solway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700&display=swap');
 
 a:link, a:visited {
 	color: blue;
+	text-decoration:none;
 }
 
 a:focus, a:hover {
@@ -40,23 +42,26 @@ h1, h2, h3 {
 
 h1 {
 	margin-bottom: 1em;
+	font-size: 3em;
 
 }
 
 h2 {
 	margin-bottom: 1em;
+	font-size: 2em;
 
 }
 
 h3 {
 	margin-top:1em;
 	margin-bottom: 1em;
+	font-size:1.5em;
 	
 }
 
 header {
+	width:35em;
 	margin: 1em auto 1em auto;
-	width:300px;
 	
 }
 
@@ -66,7 +71,7 @@ main {
 
 p {
 	line-height: 135%;
-	font-family: 'Solway', serif;
+	font-family: 'Josefin Sans', sans-serif;
 	text-indent: 1em;
 }
 p:first-of-type {
