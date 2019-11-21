@@ -10,6 +10,7 @@
 /* 
 	You can modify everything after this point.
 */
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Solway&display=swap');
 
 a:link, a:visited {
 	color: blue;
@@ -32,6 +33,7 @@ code {
 }
 
 h1, h2, h3 {
+	font-family: 'Alatsi', sans-serif;
 
 }
 
@@ -62,11 +64,13 @@ p {
 #intro {
 	line-height: 135%;
 	width:35em;
+	font-family: 'Solway', serif;
 
 }
 
 #how-does-it-work, #influence, #joke {
 	line-height: 135%;
 	width: 35em;
+	font-family: 'Solway', serif;
 
 }
